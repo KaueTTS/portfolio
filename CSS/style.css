@@ -1,0 +1,155 @@
+@import url(./Styles/html.css);
+@import url(./Styles/navbar.css);
+@import url(./Styles/home.css);
+@import url(./Styles/about.css);
+@import url(./Styles/dev.css);
+@import url(./Styles/services.css);
+@import url(./Styles/projects.css);
+@import url(./Styles/contact.css);
+@import url(./Styles/footer.css);
+@import url(./Styles/animation.css);
+
+/* VARIABLE */
+:root {
+    --text-main: 'Poppins', sans-serif;
+    --bg-color-main: #040404;
+    --bg-color-second: #101010;
+    --text-color-main: #fff;
+    --text-color-second: #afafaf;
+    --main-color: rgb(255, 36, 36);
+    --second-color: rgb(144, 0, 0);
+}
+
+/* ALL */
+.home,
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* BUTTONS */
+.btn {
+    display: inline-block;
+    padding: 1.8rem 2.5rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--bg-color-second);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    /* Animation */
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+}
+
+.contact form .btn {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+/* --- BREAKPOINT --- */
+/* +++ */
+@media (min-windth: 2560px) {
+
+}
+
+/* Monitores Grandes */
+@media (max-width: 2560px) and (min-width: 1920px) {
+    html {
+        font-size: 72.5%;
+    }
+
+    .sub-title {
+        font-size: 5rem;
+    }
+
+    .btn {
+        padding: 1.9rem 2.9rem;
+        font-size: 1.9rem;
+    }
+
+    .home-content {
+        max-width: 1060px;
+    }
+
+    .social-media a {
+        width: 4.8rem;
+        height: 4.8rem;
+        font-size: 2.5rem;
+        margin: 3rem 2rem 3rem 0;
+    }
+
+    .section-about img {
+        margin-right: 18rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        font-size: 2rem;
+    }
+}
+
+/* Monitores Médios */
+@media (max-width: 1920px) and (min-width: 1440px) {
+    html {
+        font-size: 64.5%;
+    }
+
+    .sub-title {
+        font-size: 4.8rem;
+    }
+
+    .btn {
+        padding: 1.8rem 2.8rem;
+        font-size: 1.8rem;
+    }
+
+    .home-content {
+        max-width: 860px;
+    }
+
+    .social-media a {
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 2.4rem;
+    }
+
+    .section-about img {
+        margin-right: 15rem;
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        font-size: 1.6rem;
+    }
+}
+
+/* Tablets */
+/* @media (max-width: 1024px) and (min-width: 768px) {
+    
+} */
+
+/* Celulares */
+/* @media (max-width: 768px) {
+
+} */
