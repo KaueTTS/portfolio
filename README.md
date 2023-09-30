@@ -3,7 +3,7 @@
 ### Tópicos
 
 - [Descrição do projeto](#descrição-do-projeto)
-- [Ferramentas utilizadas](#ferramentas-utilizas)
+- [Ferramentas utilizadas](#ferramentas-utilizadas)
 - [Desenvolvedor](#desenvolvedor)
 
 ## Descrição do projeto
