@@ -22,7 +22,7 @@ window.onscroll = () => {
 
 // HOME MULTIPLE TEXT
 var typed = new Typed('#multiple-text', {
-    strings: ['Desenvolvedor FullStack', 'Desenvolvedor de Jogos', 'Engenheiro de Software', 'Suporte Técnico'],
+    strings: ['Desenvolvedor FullStack', 'Desenvolvedor de Jogos', 'Engenheiro de Software'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 2000,
