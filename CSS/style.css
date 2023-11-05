@@ -208,6 +208,12 @@
 
 /* Celulares */
 @media (max-width: 768px) {
+    /*tst*/
+    .dev-nav,
+    .service-nav {
+        display: none;
+    }
+
     html {
         font-size: 42%;
     }
