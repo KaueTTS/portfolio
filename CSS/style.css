@@ -258,6 +258,11 @@
         scale: 1.1;
     }
 
+    .home,
+    .about{
+        text-align: center;
+    }
+
     .tab-titles {
         justify-content: center;
         margin-left: 5rem;
