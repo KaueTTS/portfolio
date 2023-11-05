@@ -18,14 +18,18 @@
         <a href="#" class="logo"><span>P</span>ortfolio<span>.</span></a>
 
         <nav class="navbar">
-            <a href="#home" style="--i: 1" class="active">Home</a>
-            <a href="#about" style="--i: 2" >About</a>
-            <a href="#languages" style="--i: 3" >Dev</a>
-            <a href="#services" style="--i: 4" >Services</a>
-            <a href="#projects" style="--i: 5" >Projects</a>
-            <a href="#contact" style="--i: 6" >Contact</a>
+            <ul id="sidemenu">  
+                </li><a href="#home" style="--i: 1" class="active">Home</a></li>
+                </li><a href="#about" style="--i: 2" >About</a></li>
+                </li><a href="#languages" style="--i: 3" >Dev</a></li>
+                </li><a href="#services" style="--i: 4" >Services</a></li>
+                </li><a href="#projects" style="--i: 5" >Projects</a></li>
+                </li><a href="#contact" style="--i: 6" >Contact</a></li>
+            
+                </li><ion-icon id="close-icon" name="close" onclick="closemenu()"></ion-icon></li>
+            </ul>
 
-            <ion-icon id="menu-icon" name="menu"></ion-icon>
+            <ion-icon id="menu-icon" name="menu" onclick="openmenu()"></ion-icon>
         </nav>
     </header>
 

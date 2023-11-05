@@ -212,14 +212,50 @@
         font-size: 42%;
     }
 
-    /* tst */
-    .navbar {
+    #close-icon,
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 4rem;
+    }
+
+    #menu-icon {
+        text-align: center;
+    }
+
+    .navbar ul{
+        background-color: var(--main-color);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 150px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+
+    .navbar a{
+        display: block;
+        margin: 40px 0 0 20px;
+        font-size: 16px;
+    }
+
+    .navbar ul #close-icon {
+        position: absolute;
+        top: 25px;
+        left: 15px;
+    }
+
+    .navbar a::after {
         display: none;
     }
 
-    .home,
-    .about{
-        text-align: center;
+    .navbar a:hover,
+    .navbar a.active,
+    .navbar a.active::after {
+        color: var(--second-color);
+        scale: 1.1;
     }
 
     .tab-titles {

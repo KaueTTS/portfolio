@@ -20,6 +20,18 @@ window.onscroll = () => {
   })
 }
 
+// SIDEBAR
+var sidemenu = document.getElementById("sidemenu")
+
+function openmenu() {
+  sidemenu.style.right = "0"
+}
+
+
+function closemenu() {
+  sidemenu.style.right = "-200px"
+}
+
 // HOME MULTIPLE TEXT
 var typed = new Typed('#multiple-text', {
     strings: ['Desenvolvedor FullStack', 'Desenvolvedor de Jogos', 'Engenheiro de Software'],
