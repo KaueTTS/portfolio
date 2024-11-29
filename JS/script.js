@@ -19,17 +19,14 @@ const multipleText = new Typed('#multiple-text', {
 ////////////////////////////////////////////
 // Referências dos elementos
 const languageToggle = document.getElementById("languageToggle");
-let currentLanguage = "pt"; // Idioma padrão
+let currentLanguage = "pt";
 const i_am = document.getElementById("i_am")
 
-// Função para carregar as traduções
 async function loadTranslations(language) {
   try {
-    // Carrega o arquivo JSON com as traduções
     const response = await fetch("translations.json");
     const translations = await response.json();
 
-    // Atualiza o conteúdo dos elementos com base no idioma selecionado
     document.querySelectorAll("[data-translate]").forEach((element) => {
       const key = element.getAttribute("data-translate");
       if (translations[language][key]) {
@@ -37,23 +34,19 @@ async function loadTranslations(language) {
       }
     });
 
-    // Atualiza o idioma da página
     document.documentElement.lang = language;
   } catch (error) {
     console.error("Erro ao carregar traduções:", error);
   }
 }
 
-// Evento para alternar o idioma
 languageToggle.addEventListener("change", () => {
   currentLanguage = languageToggle.checked ? "en" : "pt";
   loadTranslations(currentLanguage);
 });
 
-// Carregar o idioma inicial
 loadTranslations(currentLanguage);
 
-// 
 languageToggle.addEventListener('change', function() {
   if (languageToggle.checked) {
     i_am.innerHTML  = `I am <span id="multiple-text"></span>`;
@@ -76,7 +69,12 @@ languageToggle.addEventListener('change', function() {
   }
 });
 
-// NAVBAR
+
+////////////////////////////////////////////
+///// ************************
+///// * Retornar para o topo *
+///// ************************
+////////////////////////////////////////////
 let sections = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('header nav a')
 
@@ -98,7 +96,12 @@ window.onscroll = () => {
   })
 }
 
-// SIDEBAR
+
+////////////////////////////////////////////
+///// ********************************
+///// * Sidebar dinamico para mobile *
+///// ********************************
+////////////////////////////////////////////
 var sidemenu = document.getElementById("sidemenu")
 
 function openmenu() {
