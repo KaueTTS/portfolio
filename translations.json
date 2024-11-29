@@ -1,0 +1,21 @@
+{
+    "pt": {
+      "home": "Início",
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "services": "Serviços",
+      "projects": "Projetos",
+      "contact": "Contato",
+      "welcome_message": "Bem-vindo ao meu portfólio!"
+    },
+    "en": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact",
+      "welcome_message": "Welcome to my portfolio!"
+    }
+  }
+  
