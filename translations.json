@@ -1,21 +1,59 @@
 {
     "pt": {
-      "home": "Início",
-      "about": "Sobre",
-      "skills": "Habilidades",
-      "services": "Serviços",
-      "projects": "Projetos",
-      "contact": "Contato",
-      "welcome_message": "Bem-vindo ao meu portfólio!"
+        "_comment1": "HOME",
+            "home": "Início",  
+            "about": "Sobre",
+            "skillsDev": "Habilidades",
+            "services": "Serviços",
+            "projects": "Projetos",
+            "contact": "Contato",
+
+            "hello": "Olá, meu nome é",
+            "name": "Kauê Bertaze",
+            "i_desc": "Minha paixão pela tecnologia é profunda e abrangente. Desde minha infância, a magia dos dispositivos eletrônicos e a constante evolução tecnológica têm sido fontes de empolgação. A tecnologia não é apenas uma ferramenta, mas uma extensão de mim, permitindo conexões globais, aprendizado constante e simplificação da vida. Além disso, ela inspira minha criatividade e alimenta minha curiosidade, moldando minha vida e me fazendo apreciar um futuro interligado com suas maravilhas.",
+
+
+        "_comment2": "ABOUT",
+
+
+        "_comment3": "SKILLS",
+
+
+        "_comment4": "SERVICES",
+
+
+        "_comment5": "PROJECTS",
+
+
+        "_comment6": "CONTACT"
     },
     "en": {
-      "home": "Home",
-      "about": "About",
-      "skills": "Skills",
-      "services": "Services",
-      "projects": "Projects",
-      "contact": "Contact",
-      "welcome_message": "Welcome to my portfolio!"
+        "_comment1": "HOME",
+            "home": "Home",
+            "about": "About",
+            "skillsDev": "Skills",
+            "services": "Services",
+            "projects": "Projects",
+            "contact": "Contact",
+
+            "hello": "Hello, my name is",
+            "name": "Kauê Bertaze",
+            "i_desc": "My passion for technology is deep and wide-ranging. Since my childhood, the magic of electronic devices and constant technological evolution have been sources of excitement. Technology is not just a tool, but an extension of me, enabling global connections, constant learning and simplifying life. Furthermore, it inspires my creativity and fuels my curiosity, shaping my life and making me appreciate a future intertwined with its wonders.",
+
+
+        "_comment2": "ABOUT",
+            
+
+        "_comment3": "SKILLS",
+
+
+        "_comment4": "SERVICES",
+
+
+        "_comment5": "PROJECTS",
+
+
+        "_comment6": "CONTACT"
     }
   }
   

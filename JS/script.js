@@ -1,3 +1,81 @@
+////////////////////////////////////////////
+///// ****************************
+///// * Multiplo texto na página *
+///// ****************************
+////////////////////////////////////////////
+const multipleText = new Typed('#multiple-text', {
+                      strings: ['Desenvolvedor FullStack', 'Desenvolvedor de Jogos', 'Engenheiro de Software'],
+                      typeSpeed: 100,
+                      backSpeed: 100,
+                      backDelay: 2000,
+                      loop: true
+                    });
+
+
+////////////////////////////////////////////
+///// ***********************
+///// * Ajuste de linguagem *
+///// ***********************
+////////////////////////////////////////////
+// Referências dos elementos
+const languageToggle = document.getElementById("languageToggle");
+let currentLanguage = "pt"; // Idioma padrão
+const i_am = document.getElementById("i_am")
+
+// Função para carregar as traduções
+async function loadTranslations(language) {
+  try {
+    // Carrega o arquivo JSON com as traduções
+    const response = await fetch("translations.json");
+    const translations = await response.json();
+
+    // Atualiza o conteúdo dos elementos com base no idioma selecionado
+    document.querySelectorAll("[data-translate]").forEach((element) => {
+      const key = element.getAttribute("data-translate");
+      if (translations[language][key]) {
+        element.textContent = translations[language][key];
+      }
+    });
+
+    // Atualiza o idioma da página
+    document.documentElement.lang = language;
+  } catch (error) {
+    console.error("Erro ao carregar traduções:", error);
+  }
+}
+
+// Evento para alternar o idioma
+languageToggle.addEventListener("change", () => {
+  currentLanguage = languageToggle.checked ? "en" : "pt";
+  loadTranslations(currentLanguage);
+});
+
+// Carregar o idioma inicial
+loadTranslations(currentLanguage);
+
+// 
+languageToggle.addEventListener('change', function() {
+  if (languageToggle.checked) {
+    i_am.innerHTML  = `I am <span id="multiple-text"></span>`;
+    new Typed('#multiple-text', {
+      strings: ['FullStack Developer', 'Game Developer', 'Software Engineer'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 2000,
+      loop: true
+    });
+  } else {
+    i_am.innerHTML  = `E eu sou um <span id="multiple-text"></span>`;
+    new Typed('#multiple-text', {
+      strings: ['Desenvolvedor FullStack', 'Desenvolvedor de Jogos', 'Engenheiro de Software'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      backDelay: 2000,
+      loop: true
+    });
+  }
+});
+
 // NAVBAR
 let sections = document.querySelectorAll('section')
 let navLinks = document.querySelectorAll('header nav a')
@@ -31,15 +109,6 @@ function openmenu() {
 function closemenu() {
   sidemenu.style.right = "-200px"
 }
-
-// HOME MULTIPLE TEXT
-var typed = new Typed('#multiple-text', {
-    strings: ['Desenvolvedor FullStack', 'Desenvolvedor de Jogos', 'Engenheiro de Software'],
-    typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 2000,
-    loop: true
-});
 
 // ABOUT TABLINKS
 var tabLinks = document.getElementsByClassName("tab-links")
@@ -76,39 +145,3 @@ form.addEventListener('submit', e => {
     })
     .catch(error => console.error('Error!', error.message))
 })
-
-
-// Referências dos elementos
-const languageToggle = document.getElementById("languageToggle");
-let currentLanguage = "pt"; // Idioma padrão
-
-// Função para carregar as traduções
-async function loadTranslations(language) {
-  try {
-    // Carrega o arquivo JSON com as traduções
-    const response = await fetch("translations.json");
-    const translations = await response.json();
-
-    // Atualiza o conteúdo dos elementos com base no idioma selecionado
-    document.querySelectorAll("[data-translate]").forEach((element) => {
-      const key = element.getAttribute("data-translate");
-      if (translations[language][key]) {
-        element.textContent = translations[language][key];
-      }
-    });
-
-    // Atualiza o idioma da página
-    document.documentElement.lang = language;
-  } catch (error) {
-    console.error("Erro ao carregar traduções:", error);
-  }
-}
-
-// Evento para alternar o idioma
-languageToggle.addEventListener("change", () => {
-  currentLanguage = languageToggle.checked ? "en" : "pt";
-  loadTranslations(currentLanguage);
-});
-
-// Carregar o idioma inicial
-loadTranslations(currentLanguage);
