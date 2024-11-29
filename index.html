@@ -19,20 +19,23 @@
 
         <nav class="navbar">
             <ul id="sidemenu">  
-                </li><a href="#home" style="--i: 1" class="active">Home</a></li>
-                </li><a href="#about" style="--i: 2" >About</a></li>
-                </li><a href="#languages" style="--i: 3" >Dev</a></li>
-                </li><a href="#services" style="--i: 4" >Services</a></li>
-                </li><a href="#projects" style="--i: 5" >Projects</a></li>
-                </li><a href="#contact" style="--i: 6" >Contact</a></li>
+                </li><a href="#home" style="--i: 1" class="active">Início</a></li>
+                </li><a href="#about" style="--i: 2" >Sobre</a></li>
+                </li><a href="#skillsDev" style="--i: 3" >Habilidades</a></li>
+                </li><a href="#services" style="--i: 4" >Serviços</a></li>
+                </li><a href="#projects" style="--i: 5" >Projetos</a></li>
+                </li><a href="#contact" style="--i: 6" >Contato</a></li>
             
+                <!-- Mobile Icon Close -->
                 </li><ion-icon id="close-icon" name="close" onclick="closemenu()"></ion-icon></li>
             </ul>
 
+            <!-- Mobile Icon Open -->
             <ion-icon id="menu-icon" name="menu" onclick="openmenu()"></ion-icon>
         </nav>
     </header>
 
+    
     <!-- HOME -->
     <section class="home" id="home">
         <div class="home-content">
@@ -42,13 +45,11 @@
             <p>Minha paixão pela tecnologia é profunda e abrangente. Desde minha infância, a magia dos dispositivos eletrônicos e a constante evolução tecnológica têm sido fontes de empolgação. A tecnologia não é apenas uma ferramenta, mas uma extensão de mim, permitindo conexões globais, aprendizado constante e simplificação da vida. Além disso, ela inspira minha criatividade e alimenta minha curiosidade, moldando minha vida e me fazendo apreciar um futuro interligado com suas maravilhas.</p>
 
             <div class="social-media">
-                <a style="--i: 6"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a style="--i: 7"><ion-icon name="logo-twitter"></ion-icon></a>
-                <a href="https://github.com/KaueTTS" target="_blank" style="--i: 8"><ion-icon name="logo-github"></ion-icon></a>
-                <a href="https://www.linkedin.com/in/kauebertaze/" target="_blank" style="--i: 9"><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="https://www.instagram.com/kauebertaze/" target="_blank" style="--i: 10"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a style="--i: 11"><ion-icon name="logo-youtube"></ion-icon></a>
-                <a style="--i: 12"><ion-icon name="logo-twitch"></ion-icon></a>
+                <a href="https://github.com/KaueTTS" target="_blank" style="--i: 6"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/kauebertaze/" target="_blank" style="--i: 7"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/kauebertaze/" target="_blank" style="--i: 8"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a style="--i: 9"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a style="--i: 10"><ion-icon name="logo-twitch"></ion-icon></a>
             </div>
 
             <a href="./DOC/CV - KAUE BERTAZE.docx.pdf" download class="btn">Download CV</a>
@@ -65,13 +66,13 @@
             <img src="./IMG/descanso-curto.png" alt="About-Profile">
 
             <div class="about-container">
-                <h2 class="sub-title">About <span>Me</span></h2>
+                <h2 class="sub-title">Sobre <span>Mim</span></h2>
                 <p>A determinação sempre foi um pilar fundamental em minha vida, impulsionando-me a superar desafios e alcançar metas. No entanto, aprendi a importância de pedir ajuda quando necessário, equilibrando a independência com a colaboração, valorizando tanto minha resiliência quanto o apoio dos outros em minha jornada de crescimento pessoal e profissional.</p>
 
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Hard Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experiência</p>
+                    <p class="tab-links" onclick="opentab('education')">Educação</p>
                 </div>
 
                 <div class="tab-contents active-tab" id="skills">
@@ -113,8 +114,8 @@
     </section>
 
     <!-- SKILLS -->
-    <section class="languages main" id="languages">
-        <h2 class="sub-title">My <span>Languages</span></h2>
+    <section class="skillsDev main" id="skillsDev">
+        <h2 class="sub-title">My <span>skillsDev</span></h2>
         <div class="container">
             <div class="skills">
                 <h2>HTML</h2>
