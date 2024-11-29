@@ -4,23 +4,34 @@
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20ANDAMENTO&color=0065fd&style=for-the-badge"/>
 </p>
 
+> 🔔 ***Nota:** Esse projeto pode ter alterações no futuro.*
+
 ### Tópicos
 
 - [Descrição do projeto](#descrição-do-projeto)
-- [Ferramentas utilizadas](#ferramentas-utilizadas)
+  - [Features](#features)
+- [Tecnologias](#tecnologias)
 - [Desenvolvedor](#desenvolvedor)
 
 ## Descrição do projeto
 
-<p> 🚧 Meu primeiro projeto de Portfolio está em desenvolvimento... 🚧 </p>
+<p> Meu primeiro portfolio utilizando ferramentas simples mas poderosas. </p>
 
-## Ferramentas utilizadas
+### Features
 
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target=_blank> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="HTML" width="40" height="40"/>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target=_blank> <img src="https://logospng.org/download/css-3/logo-css-3-2048.png" alt="CSS" width="40" height="40"/>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target=_blank> <img src="https://logospng.org/download/javascript/logo-javascript-1024.png" alt="JS" width="40" height="40"/>
+Home: Redes sociais e currículo
+About: Experiências profissionais, Hard skills e escolaridade
+Dev: Conhecimento em cada linguagem
+Services: Tipos de serviços que disponibilizo
+Projects: Projetos realizados na minha carreira
+Contact: Entrar em contato comigo
 
-<a href="https://code.visualstudio.com/" target=_blank> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" alt="VsCode" width="40" height="40"> 
+## Tecnologias
+
+<div>
+    <img src="https://skillicons.dev/icons?i=vscode,js,css,html" />
+</div>
+
 
 ## Desenvolvedor
 
