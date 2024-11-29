@@ -144,6 +144,13 @@
     }
 }
 
+/* default */
+@media (max-width: 2560px) and (min-width: 1124px) {
+    .switch {
+        margin-top: 4px;
+    }
+}
+
 /* Tablets */
 @media (max-width: 1124px) and (min-width: 768px) {
     html {

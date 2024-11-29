@@ -3,9 +3,8 @@
 .switch {
     position: relative;
     display: inline-block;
-    width: 70px; /* Ajuste a largura para acomodar os textos */
-    height: 25px;
-    margin-top: 1px;
+    width: 50px; /* Ajuste a largura para acomodar os textos */
+    height: 20px;
     margin-left: 30px;
 }
 
@@ -30,8 +29,8 @@
 .slider:before {
     position: absolute;
     content: "";
-    height: 23px;
-    width: 23px;
+    height: 18px;
+    width: 18px;
     left: 3px;
     bottom: 1px;
     background-color: var(--bg-color-main);
@@ -44,14 +43,13 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(40px); /* Ajuste para acompanhar a largura do switch */
+    transform: translateX(25px); /* Ajuste para acompanhar a largura do switch */
 }
 
 /* Texto do botão (PT/EN) */
 .switch-text {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     font-size: 12px;
     font-weight: bold;
     color: var(--bg-color-main);
@@ -61,10 +59,12 @@ input:checked + .slider:before {
 
 #switch-text-pt {
     left: 10px; /* Texto PT no lado esquerdo */
+    transform: translateY(-50%) translateX(-25%);
 }
 
 #switch-text-en {
     right: 10px; /* Texto EN no lado direito */
+    transform: translateY(-50%) translateX(25%);
 }
 
 /* NAVBAR */
