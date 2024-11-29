@@ -15,10 +15,23 @@
 <body>
     <!-- NavBar -->
     <header class="nav-content">
-        <a href="#" class="logo"><span>P</span>ortfolio<span>.</span></a>
+        <div class="portfolio-nav">
+            <a href="#" class="logo"><span>P</span>ortfolio<span>.</span></a>
+
+            <!-- Button toggle Language -->
+            <label class="switch">
+                <input type="checkbox" id="languageToggle">
+                <span class="slider"></span>
+                <!-- Textos PT e EN -->
+                <span class="switch-text" id="switch-text-pt">PT</span>
+                <span class="switch-text" id="switch-text-en">EN</span>
+            </label>
+        </div>
+        
 
         <nav class="navbar">
-            <ul id="sidemenu">  
+            <ul id="sidemenu">           
+                <!-- Navbar -->
                 </li><a href="#home" style="--i: 1" class="active">Início</a></li>
                 </li><a href="#about" style="--i: 2" >Sobre</a></li>
                 </li><a href="#skillsDev" style="--i: 3" >Habilidades</a></li>
