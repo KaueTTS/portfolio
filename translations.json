@@ -14,7 +14,10 @@
 
 
         "_comment2": "ABOUT",
-
+            "me": " Mim",
+            "about_desc": "A determinação sempre foi um pilar fundamental em minha vida, impulsionando-me a superar desafios e alcançar metas. No entanto, aprendi a importância de pedir ajuda quando necessário, equilibrando a independência com a colaboração, valorizando tanto minha resiliência quanto o apoio dos outros em minha jornada de crescimento pessoal e profissional.",
+            "exp": "Experiência",
+            "education": "Educação",
 
         "_comment3": "SKILLS",
 
@@ -26,8 +29,7 @@
 
 
         "_comment6": "CONTACT",
-            "contact1": "Contate ",
-            "contact2": "Me",
+            "contactme": "Contate ",
             "sendMsg": "Enviar Mensagem"
     },
     "en": {
@@ -45,7 +47,7 @@
 
 
         "_comment2": "ABOUT",
-
+            "me": " Me",
 
         "_comment3": "SKILLS",
 
@@ -57,8 +59,7 @@
 
 
         "_comment6": "CONTACT",
-            "contact1": "Contact ",
-            "contact2": "Me",
+            "contactme": "Contact ",
             "sendMsg": "Send Message"
     }
   }
