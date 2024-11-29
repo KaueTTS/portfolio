@@ -61,6 +61,11 @@
     font-size: 1.6rem;
 }
 
+.tab-contents ul li p {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
 .list-about {
     font-size: 1.2rem;
     color: var(--text-color-second);

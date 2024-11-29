@@ -25,7 +25,10 @@
         "_comment5": "PROJECTS",
 
 
-        "_comment6": "CONTACT"
+        "_comment6": "CONTACT",
+            "contact1": "Contate ",
+            "contact2": "Me",
+            "sendMsg": "Enviar Mensagem"
     },
     "en": {
         "_comment1": "HOME",
@@ -42,7 +45,7 @@
 
 
         "_comment2": "ABOUT",
-            
+
 
         "_comment3": "SKILLS",
 
@@ -53,7 +56,10 @@
         "_comment5": "PROJECTS",
 
 
-        "_comment6": "CONTACT"
+        "_comment6": "CONTACT",
+            "contact1": "Contact ",
+            "contact2": "Me",
+            "sendMsg": "Send Message"
     }
   }
   
