@@ -19,11 +19,11 @@
 
 ### Features
 
-Home: Redes sociais e currículo
-About: Experiências profissionais, Hard skills e escolaridade
-Dev: Conhecimento em cada linguagem
-Services: Tipos de serviços que disponibilizo
-Projects: Projetos realizados na minha carreira
+Home: Redes sociais e currículo<br>
+About: Experiências profissionais, Hard skills e escolaridade<br>
+Dev: Conhecimento em cada linguagem<br>
+Services: Tipos de serviços que disponibilizo<br>
+Projects: Projetos realizados na minha carreira<br>
 Contact: Entrar em contato comigo
 
 ## Tecnologias
