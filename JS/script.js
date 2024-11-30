@@ -110,9 +110,9 @@ function opentab(tabname) {
 
 
 ////////////////////////////////////////////
-///// ********************************
-///// *  *
-///// ********************************
+///// ************************************
+///// * Envio de formulário para contato *
+///// ************************************
 ////////////////////////////////////////////
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzYQni6mSU08ntoa03Zep2uVs0t07xVdje0zh33MHtcfZuQOZg92eXrSdphP8X_fVz4lg/exec'
 const form = document.forms['submit-to-google-sheet']
