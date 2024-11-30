@@ -298,6 +298,13 @@
     .services {
         display: none;
     }
+    #skillsDevNav {
+        display: none;
+    }
+    #servicesNav {
+        display: none;
+    }
+
 
     .projects-container {
         grid-template-columns: repeat(2, 1fr);

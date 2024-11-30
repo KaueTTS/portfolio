@@ -71,33 +71,6 @@ languageToggle.addEventListener('change', function() {
 
 
 ////////////////////////////////////////////
-///// ************************
-///// * Retornar para o topo *
-///// ************************
-////////////////////////////////////////////
-let sections = document.querySelectorAll('section')
-let navLinks = document.querySelectorAll('header nav a')
-
-window.onscroll = () => {
-  sections.forEach(sec => {
-    let top = window.scrollY
-    let offset = sec.offsetTop - 150
-    let height = sec.offsetHeight
-    let id = sec.getAttribute('id')
-
-    if (top >= offset && top < offset + height) {
-      navLinks.forEach(links => {
-        links.classList.remove('active')
-        document
-          .querySelector('header nav a[href*=' + id + ']')
-          .classList.add('active')
-      })
-    }
-  })
-}
-
-
-////////////////////////////////////////////
 ///// ********************************
 ///// * Sidebar dinamico para mobile *
 ///// ********************************
@@ -130,7 +103,12 @@ function opentab(tabname) {
     document.getElementById(tabname).classList.add("active-tab")
 }
 
-/* CONTACT FORM */
+
+////////////////////////////////////////////
+///// ********************************
+///// *  *
+///// ********************************
+////////////////////////////////////////////
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzYQni6mSU08ntoa03Zep2uVs0t07xVdje0zh33MHtcfZuQOZg92eXrSdphP8X_fVz4lg/exec'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
@@ -148,3 +126,30 @@ form.addEventListener('submit', e => {
     })
     .catch(error => console.error('Error!', error.message))
 })
+
+
+////////////////////////////////////////////
+///// ************************
+///// * Retornar para o topo *
+///// ************************
+////////////////////////////////////////////
+let sections = document.querySelectorAll('section')
+let navLinks = document.querySelectorAll('header nav a')
+
+window.onscroll = () => {
+  sections.forEach(sec => {
+    let top = window.scrollY
+    let offset = sec.offsetTop - 150
+    let height = sec.offsetHeight
+    let id = sec.getAttribute('id')
+
+    if (top >= offset && top < offset + height) {
+      navLinks.forEach(links => {
+        links.classList.remove('active')
+        document
+          .querySelector('header nav a[href*=' + id + ']')
+          .classList.add('active')
+      })
+    }
+  })
+}
