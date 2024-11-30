@@ -86,7 +86,12 @@ function closemenu() {
   sidemenu.style.right = "-200px"
 }
 
-// ABOUT TABLINKS
+
+////////////////////////////////////////////
+///// **********************
+///// * Sobre mim dinâmico *
+///// **********************
+////////////////////////////////////////////
 var tabLinks = document.getElementsByClassName("tab-links")
 var tabContents = document.getElementsByClassName("tab-contents")
 
